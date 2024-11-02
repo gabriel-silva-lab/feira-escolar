@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fonte header;
+    src: url(fonte/JunigardenSerif_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: fonte titulo ;
+    src: url(fonte/LEMONMILK-Bold.otf);
+}
+@font-face {
+    font-family: fonte paragrafo;
+    src: url(fonte/CaviarDreams.ttf);
+}
+/*
+#217f16
+#195f11
+#103f0b
+#082006
+#000000
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #195f11;
+    font-family: sans-serif;
+}
+header{
+    min-width: 150px;
+    padding: 5px 0px;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to bottom,#1a5c37 , #3ddc84 );
+}
+header h1{
+    font-family: fonte header;
+    color: white;
+    margin: 10px;
+    text-shadow: 2px 1px 1px black;
+}
+header p{
+    color: #082006;
+    padding: 10px 0px;
+    text-shadow: 1px 1px 0px black;
+}
+nav{
+     text-align: left;
+     
+}
+nav a{
+    text-decoration: none;
+    color: #0f1f0c;
+    margin: 0px 10px 0px 10px;
+    transition-duration: .5s;
+}
+nav a:hover{
+        background-color: #83be71;
+        color: white;
+        
+}
+main{
+    min-height: 300px;
+    max-width: 1000px;
+    margin: auto;
+    bottom: 10px;
+    background-color: white;
+}
+main h1{
+    font-family: fonte titulo ;
+    text-align: center;
+    color: #0e2a0a;
+}
+main h2{
+    font-family: fonte titulo ;
+    text-align: center;
+    color: #1c7f12;
+}
+main p{
+    font-family:  fonte paragrafo;
+}
+main img{
+    min-height: 200px;
+    max-width: 1000px;
+}
+footer{
+    background-color:#94bc86 ;
+}
