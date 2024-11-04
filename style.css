@@ -10,7 +10,6 @@
     src: url(fonte/CaviarDreams.ttf);
 }
 /*
-#217f16
 #195f11
 #103f0b
 #082006
@@ -22,10 +21,10 @@
     padding: 0px;
 }
 body{
-   background-color: white;     
+   background-color: #217f16;    
 }
 header{
-    background-image: linear-gradient(to top, #195f11, #217f16);
+    background-image: linear-gradient(to top, #082006, #217f16);
     padding: 30px;
 }
 header h1{
@@ -49,12 +48,15 @@ nav a{
 main{
     min-width: 300px;
     max-width: 1000px;
+    background-color: white;
 } 
 main h2{
+    text-align: center;
+    color: #195f11;
+}
+main p{
+    
+}
 
-<<<<<<< HEAD
 
     
-=======
-}
->>>>>>> 9162ebfad79a7f179549263eb6ce2e782dcbebdd
