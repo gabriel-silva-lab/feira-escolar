@@ -75,7 +75,7 @@ main h1{
 main h2{
     font-family: fonte titulo ;
     text-align: center;
-    color: #1c7f12;
+    color: #0e2a0a;
 }
 main p{
     font-family:  fonte paragrafo;
@@ -84,6 +84,22 @@ main img{
     min-height: 200px;
     max-width: 1000px;
 }
+aside{
+    text-align: center;
+    background-color: #3ddc84;
+    
+}
+aside h3{
+    color: white;
+}
 footer{
+    min-height: 300px;
+    max-width: 1000px;
+    margin: auto;
     background-color:#94bc86 ;
+}
+
+footer {
+    list-style-position: inside;
+    columns: 2;
 }
