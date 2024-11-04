@@ -19,87 +19,36 @@
 #082006
 #000000
 */
+
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
-    background-color: #195f11;
-    font-family: sans-serif;
+    background-color: rgb(235, 235, 235);
 }
 header{
-    min-width: 150px;
-    padding: 5px 0px;
-    margin: auto;
-    text-align: center;
-    background-image: linear-gradient(to bottom,#1a5c37 , #3ddc84 );
-}
-header h1{
-    font-family: fonte header;
-    color: white;
-    margin: 10px;
-    text-shadow: 2px 1px 1px black;
+    background-color: rgba(0, 0, 255, 0.699);
+    height: 200px;
 }
 header p{
-    color: #082006;
-    padding: 10px 0px;
-    text-shadow: 1px 1px 0px black;
-}
-nav{
-     text-align: left;
-     
-}
-nav a{
-    text-decoration: none;
-    color: #0f1f0c;
-    margin: 0px 10px 0px 10px;
-    transition-duration: .5s;
-}
-nav a:hover{
-        background-color: #83be71;
-        color: white;
-        
+    text-align: center;
+    font-size: 20px;
 }
 main{
-    min-height: 300px;
+    min-width: 300px;
     max-width: 1000px;
-    margin: auto;
-    bottom: 10px;
+} 
+main h2{
+         font-size: 3em
+}
+ #primeiro{
+    background-color: white;
+ }
+
+#h1primeiro{
     background-color: white;
 }
-main h1{
-    font-family: fonte titulo ;
-    text-align: center;
-    color: #0e2a0a;
-}
-main h2{
-    font-family: fonte titulo ;
-    text-align: center;
-    color: #0e2a0a;
-}
-main p{
-    font-family:  fonte paragrafo;
-}
-main img{
-    min-height: 200px;
-    max-width: 1000px;
-}
-aside{
-    text-align: center;
-    background-color: #3ddc84;
-    
-}
-aside h3{
-    color: white;
-}
-footer{
-    min-height: 300px;
-    max-width: 1000px;
-    margin: auto;
-    background-color:#94bc86 ;
-}
-
-footer {
-    list-style-position: inside;
-    columns: 2;
+#pprimeiro{
+    background-color: orange;
 }
