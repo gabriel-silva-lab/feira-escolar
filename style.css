@@ -46,6 +46,9 @@ nav a{
     text-decoration: none;
     color: white;
 }
+nav a:hover{
+    color: blue;
+}
 main{
     min-width: 300px;
     max-width: 1000px;
