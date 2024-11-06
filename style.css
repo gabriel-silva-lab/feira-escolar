@@ -21,7 +21,7 @@
     padding: 0px;
 }
 body{
-   background-color: #217f16;    
+   background-color: #000000;    
 }
 header{
     background-image: linear-gradient(to top, #082006, #217f16);
@@ -55,6 +55,7 @@ main{
     max-width: 1000px;
     margin: auto;
     background-color: white;
+    text-align: center;
 } 
 main h2{
     text-align: center;
@@ -64,6 +65,24 @@ main p{
     font-family: fonte paragrafo;
     text-decoration: none;
 }
+aside{
+    background-color: #217f16;
+}
+aside h3{
+    background-color:#27aa18 ;
+    color: white;
+  text-align: center;
+  border-radius: 5px 5px 0px 0px;
+}
+aside p{
+    text-align: center;
+    color: white;
+}
+aside ul{
+    list-style-position: inside;
+    columns: 2;
+}
+
 
 
 
