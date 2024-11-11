@@ -81,6 +81,7 @@ aside h3{
   border-radius: 5px 5px 0px 0px;
 }
 aside p{
+    margin-top: 5px;
     text-align: center;
     color: white;
 }
@@ -101,6 +102,7 @@ footer h2{
 }
 footer p{
     color: white;
+    margin-top: 10px;
 }
 
 
