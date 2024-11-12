@@ -54,7 +54,8 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    background-color: white;
+    background-color: 
+    white;
     text-align: center;
     padding-top: 5px;
 } 
@@ -136,7 +137,7 @@ footer h4{
 .manual-navigation{
     position: absolute;
     width: 390px;
-    margin-top: 250px;
+    margin-top: -125px;
     display: flex;
     justify-content: center;
 }
@@ -168,7 +169,7 @@ footer h4{
 
 .navigation-auto div{
     border: 2px solid #20a6ff;
-    padding: 6px;
+    padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
@@ -177,7 +178,7 @@ footer h4{
 .navigation-auto{
     position: absolute;
     width: 390px;
-    margin-top: 360px;
+    margin-top: 350px;
     display: flex;
     justify-content: center;
 }
@@ -195,7 +196,5 @@ footer h4{
 #radio3:checked ~ .navigation-auto .auto-btn1{
     background-color: white;
 }
-#radio4:checked ~ .navigation-auto .auto-btn1{
-    background-color: white;
-}
+
     
