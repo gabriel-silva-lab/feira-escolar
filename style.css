@@ -50,6 +50,9 @@ nav a{
 nav a:hover{
     color:#bcdeaa ;
 }
+nav img{
+    margin-left: 350px;
+}
 main{
     min-width: 300px;
     max-width: 1000px;
@@ -100,8 +103,7 @@ footer h2{
     color: white;
 }
 footer p{
-    color: white;
-    margin-top: 10px;
+    color: black;
 }
 footer h4{
     color: white;
