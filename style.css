@@ -15,19 +15,24 @@
 #082006
 #000000
 */
-
-    
-body{
+/*background-image: linear-gradient(to top, #3e9031,#345b2b );*/
+*{
     margin: 0px;
     padding: 0px;
+}    
+body{
    background-color: #082006;    
 }
 header{
-    background-image: linear-gradient(to top, #3e9031,#345b2b );
-    padding: 30px;
+    background: url(imagens/escola.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 15px;
 }
 header h1{
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
     color: white;
     font-family: fonte titulo;
     text-shadow: 3px 1px 1px black
@@ -39,8 +44,10 @@ header p{
     padding-bottom: 5px;
     text-shadow: 3px 1px 1px black
 }
-header img{
-    margin-top: 20px;
+header picture{
+    padding-top: 10px;
+
+    
 }
 nav{
    padding-right: 20px;
@@ -53,9 +60,7 @@ nav a{
 nav a:hover{
     color:#bcdeaa ;
 }
-nav img{
-   
-}
+
 main{
     min-width: 300px;
     max-width: 1000px;
@@ -75,15 +80,15 @@ main p{
     text-decoration: none;
 }
 aside{
-    margin-bottom: -20px;
+    
     background-color:#84d86f;
 }
 aside h3{
-    padding-bottom: 10px;
-    background-color: #217f16 ;
-    color: white;
-  text-align: center;
-  border-radius: 10px 10px 0px 0px;
+padding-bottom: 10px;
+background-color: #217f16 ;
+color: white;
+text-align: center;
+
 }
 aside p{
     margin-top: 5px;
@@ -100,7 +105,7 @@ footer{
     max-width: 1000px;
     margin: auto;
     text-align: center;
-    background-color:#5734f1;
+    background-color:#cd1a2d;
 }
 footer h2{
     color: white;
@@ -110,13 +115,11 @@ footer p{
 }
 footer h4{
     color: white;
-    font-size: 20px;
-}
-
-
-#funcionarios{
     
 }
+
+
+
 .slider{
     margin: 0 auto;
     width: 390px;
@@ -137,7 +140,7 @@ footer h4{
     transition: 1s;
 }
 .slide img{
-    width:370px;
+    width:390px;
 }
 .manual-navigation{
     position: absolute;
@@ -154,7 +157,7 @@ footer h4{
   transition: 1s;
 }
 .manual-btn:not(:last-child){
-    margin-right: 35px;
+    margin-right: 50px;
 }
 .manual-btn:hover{
     background-color: white;
